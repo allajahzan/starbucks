@@ -1,0 +1,921 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+}
+
+
+
+/* header section-------------------- */
+
+#header {
+    height: 72px;
+}
+
+#header .nav {
+    height: 52px;
+    padding: 10px 40px 10px 130px;
+    z-index: 5;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0rem 0rem 0.4rem 0rem rgba(44, 44, 44, 0.605);
+}
+
+#header .navbar {
+    display: grid;
+    grid-template-columns: 100px 780px 300px 100px;
+    position: relative;
+    top: 6px;
+}
+
+#header .logo {
+    width: 40%;
+}
+
+#header .user {
+    width: 33%;
+    position: relative;
+    left: 52.5px;
+    top: 5px;
+}
+
+#header .nav-items {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: -2px;
+    top: -5px;
+}
+
+#header .item1 {
+    position: relative;
+    left: 2px;
+}
+
+#header .nav-items a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 15px;
+    margin-right: 65px;
+}
+
+#header .nav-items .underline2,
+.underline3,
+.underline4,
+.underline5 {
+    display: none;
+}
+
+#header .nav-items .underline1,
+.underline3 {
+    width: 40%;
+    height: 2px;
+    background-color: #00754a;
+    border-radius: 60px;
+    position: relative;
+    top: 10px;
+}
+
+#header .nav-items .underline2,
+.underline4 {
+    width: 29%;
+    height: 2px;
+    background-color: #00754a;
+    border-radius: 60px;
+    position: relative;
+    top: 10px;
+}
+
+#header .nav-items .underline5 {
+    width: 37%;
+    height: 2px;
+    background-color: #00754a;
+    border-radius: 60px;
+    position: relative;
+    top: 10px;
+}
+
+#header .searchbar {
+    display: flex;
+    position: relative;
+    left: -5px;
+}
+
+#header input {
+    padding: 11px 15px 11px 50px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0.6px 1.5px 0.5px lightgray;
+    font-family: 'Open Sans', sans-serif;
+    color: lightgray;
+    font-weight: lighter;
+    font-size: 12px;
+    letter-spacing: .2px;
+}
+
+#header .icon {
+    color: grey;
+    position: absolute;
+    z-index: 2;
+    top: 8px;
+    left: 16px;
+}
+
+
+/* section sub-header--------------- */
+
+#sub-header {
+    height: 80px;
+    background-color: #1e3932;
+    position: relative;
+    border-width: 3.8px 0px 0px 0px;
+    border-style: solid;
+    border-color: white;
+}
+
+#sub-header .main-div {
+    padding: 22px 151px 20px 126px;
+}
+
+#sub-header .text {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: normal;
+    font-size: 19px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#sub-header .text p {
+    letter-spacing: .2px;
+}
+
+#sub-header .text button {
+    border-radius: 20px;
+    padding: 8px 14.2px 9px 14.2px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+    top: -1.5px;
+    cursor: pointer;
+}
+
+/* section ads------------------------------------ */
+#ads {
+    height: 292px;
+    background-color: white;
+    position: relative;
+}
+
+#ads .main-div {
+    position: relative;
+    height: 252px;
+    padding: 32px 122px 20px 124px;
+}
+
+#ads .left {
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+    left: 102px;
+    top: 136px;
+    height: 42px;
+    width: 42px;
+    border-radius: 100px;
+    background-color: white;
+    box-shadow: 0px 1.6px 2.5px 0.5px black;
+    opacity: 0.3;
+}
+
+#ads .right {
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+    right: 102px;
+    top: 136px;
+    height: 42px;
+    width: 42px;
+    border-radius: 100px;
+    background-color: white;
+    box-shadow: 0px 1.6px 2.5px 0.5px grey;
+    opacity: 1;
+}
+
+#ads .icon {
+    color: #00754a;
+    position: relative;
+    top: 8px;
+}
+
+#ads .main-div2 {
+    position: relative;
+    height: 218px;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #178675;
+}
+
+#ads .main-div2 .banner {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    border-radius: 4px;
+}
+
+#ads .main-div2 .glass {
+    height: 95.6%;
+    width: 100%;
+    position: relative;
+    top: 13px;
+    left: -1px;
+}
+
+#ads .main-div2 .sub-div {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 100px 919px 1fr;
+}
+
+#ads .main-div2 .sub-div .text-div {
+    position: relative;
+    left: 52px;
+    top: 22px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+#ads .main-div2 .sub-div .text-div p {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+#ads .main-div2 .sub-div .text-div h3 {
+    font-size: 20px;
+    margin-bottom: 14px;
+}
+
+#ads .main-div2 .sub-div .text-div .p3 {
+    font-size: 14px;
+    margin-bottom: 39px;
+}
+
+#ads .main-div2 .sub-div .text-div .p4 {
+    font-size: 11.5px;
+    margin-bottom: 2px;
+}
+
+#ads .main-div2 .sub-div .text-div h5 {
+    font-size: 14px;
+}
+
+#ads .main-div2 .sub-div button {
+    padding: 6px;
+    border-radius: 50px;
+    padding: 15px 66px 17.8px 66px;
+    background-color: #00754a;
+    border-style: none;
+    color: white;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    right: 29px;
+    bottom: 24px;
+    cursor: pointer;
+}
+
+#ads .main-div2 .sub-div .button-div {
+    position: relative;
+}
+
+#ads .main-div2 .sub-div .button-div p {
+    color: white;
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+/* section recomends---------------------- */
+
+#recomends {
+    height: 217px;
+    background: #edebe9;
+    padding: 50px;
+    position: relative;
+}
+
+#recomends .heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+#recomends h1 {
+    position: relative;
+    top: -22px;
+    left: 65px;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    color: #343a40;
+    width: 50%;
+}
+
+#recomends .menu-p {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #00754a;
+    position: absolute;
+    right: 117px;
+    top: 30px;
+    text-decoration: none;
+}
+
+#recomends .leaf {
+    position: absolute;
+    width: 3.8%;
+    right: 0px;
+    top: 4px;
+
+}
+
+#recomends .left {
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+    left: 102px;
+    top: 165px;
+    height: 42px;
+    width: 42px;
+    border-radius: 100px;
+    background-color: white;
+    box-shadow: 0px 1.6px 2.5px 0.5px black;
+    opacity: 0.3;
+}
+
+#recomends .right {
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+    right: 102px;
+    top: 165px;
+    height: 42px;
+    width: 42px;
+    border-radius: 100px;
+    background-color: white;
+    box-shadow: 0px 1.6px 2.5px 0.5px grey;
+    opacity: 1;
+}
+
+#recomends .icon {
+    color: #00754a;
+    position: relative;
+    top: 8px;
+}
+
+#recomends .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 30px 60px 30px 60px;
+    position: relative;
+    top: -19px;
+
+}
+
+#recomends .card-sub {
+    position: relative;
+    background-color: white;
+    padding: 24px;
+    height: 110px;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    margin: 0px 12px 0px 12px;
+    box-shadow: 0.01rem 0.05rem 1rem 0.2rem lightgray;
+    cursor: pointer;
+}
+
+#recomends .img-div {
+    width: 22.3%;
+    border-radius: 8px;
+}
+
+#recomends .img1 {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 10px;
+    position: relative;
+    top: -9px;
+    border-radius: 8px;
+}
+
+#recomends .text-div {
+    position: absolute;
+    top: 18px;
+    left: 120px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#recomends .text-div .p2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 8px;
+    color: grey;
+    margin-top: 2px
+}
+
+#recomends .veg1 {
+    width: 6%;
+}
+
+#recomends .veg2 {
+    width: 9%;
+}
+
+#recomends .price {
+    display: flex;
+    justify-content: space-between;
+}
+
+#recomends .price p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    position: relative;
+    top: 5px;
+}
+
+#recomends .price button {
+    background-color: #00754a;
+    color: white;
+    padding: 8px 20px 8px 20px;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+#recomends .price button:hover{
+    background-color: #0e382c;
+}
+
+/* section images--------------- */
+
+#images {
+    height: 165px;
+    padding: 70px 127px 80px 127px;
+}
+
+#images h1 {
+    position: relative;
+    left: 8px;
+    top: -2px;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-bottom: 22px;
+
+}
+
+#images .images-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+#images .img-div {
+    text-align: center;
+    font-size: 13.5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold
+}
+
+#images .img-div p {
+    margin-top: 6px;
+}
+
+#images .img-circle {
+    background-color: white;
+    position: relative;
+    border-radius: 600px;
+    width: 106px;
+    height: 106px;
+    cursor: pointer;
+}
+
+#images img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    border-radius: 600px;
+}
+
+#images .img-circle:hover img {
+    transform: scale(0.95);
+}
+
+#images .img-circle:hover {
+    background-color: #00754a;
+}
+
+
+/* section offers------------------- */
+
+#offers {
+    height: 465px;
+    padding: 30px 110px 30px 110px;
+    position: relative;
+}
+
+#offers .left {
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+    left: 102px;
+    top: 265px;
+    height: 42px;
+    width: 42px;
+    border-radius: 100px;
+    background-color: white;
+    box-shadow: 0px 1.6px 2.5px 0.5px black;
+    opacity: 0.3;
+}
+
+#offers .right {
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+    right: 102px;
+    top: 265px;
+    height: 42px;
+    width: 42px;
+    border-radius: 100px;
+    background-color: white;
+    box-shadow: 0px 1.6px 2.5px 0.5px grey;
+    opacity: 1;
+}
+
+#offers .icon {
+    color: #00754a;
+    position: relative;
+    top: 8px;
+}
+
+#offers h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    position: relative;
+    left: 5px;
+    top: -10px;
+}
+
+#offers .main-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+    top: 22px;
+}
+
+#offers .img-div {
+    height: 47%;
+}
+
+#offers img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#offers .veg {
+    width: 5%;
+}
+
+#offers .card {
+    margin: 0px 13px 0px 13px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    overflow: hidden;
+    height: 360px;
+    box-shadow: 0.01rem 0.05rem 1rem 0.2rem lightgray;
+    cursor: pointer;
+}
+
+#offers .text-div {
+    padding: 18px 22px;
+}
+
+#offers .p1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#offers .p2 {
+    font-family: 'Open Sans', sans-serif;
+    color: grey;
+    font-size: 10px;
+    margin-top: 3px;
+}
+
+#offers .p3 {
+    font-family: 'Open Sans', sans-serif;
+    color: grey;
+    font-size: 12px;
+    margin-top: 12px;
+}
+
+#offers .price {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 20px;
+
+}
+
+#offers .price p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#offers .price button {
+    background-color: #00754a;
+    color: white;
+    padding: 8px 20px 8px 20px;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+#offers .price button:hover{
+  background-color: #1e3932;
+}
+
+
+/* section learn more--------------------- */
+
+#learn-more {
+    height: 435px;
+    background: #edebe9;
+    padding: 30px 110px 30px 110px;
+    position: relative;
+}
+
+#learn-more .left {
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+    left: 102px;
+    top: 270px;
+    height: 42px;
+    width: 42px;
+    border-radius: 100px;
+    background-color: white;
+    box-shadow: 0px 1.6px 2.5px 0.5px black;
+    opacity: 0.3;
+}
+
+#learn-more .right {
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+    right: 102px;
+    top: 270px;
+    height: 42px;
+    width: 42px;
+    border-radius: 100px;
+    background-color: white;
+    box-shadow: 0px 1.6px 2.5px 0.5px grey;
+    opacity: 1;
+}
+
+#learn-more .icon {
+    color: #00754a;
+    position: relative;
+    top: 8px;
+}
+
+#learn-more .heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+#learn-more h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    position: relative;
+    left: 5px;
+    top: 0px;
+}
+
+#learn-more .p1 {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #00754a;
+    text-decoration: none;
+}
+
+#learn-more .main-div {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    height: 370px;
+    margin: 20px 15px 20px 15px;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+}
+
+#learn-more .shadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: linear-gradient(to bottom, transparent 10%, rgba(0, 0, 0, 0.752) 100%);
+    transition: 5s;
+}
+
+#learn-more img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#learn-more .main-div:hover .shadow {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.404) 5%, rgb(0, 0, 0) 100%);
+}
+
+#learn-more .h1 {
+    margin: 0px;
+    position: absolute;
+    top: 192px;
+    left: 32px;
+    font-size: 27px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+#learn-more .p2 {
+    position: absolute;
+    left: 32px;
+    top: 15px;
+    background-color: white;
+    color: green;
+    padding: 2px 4px;
+    font-size: 9.5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#learn-more .p3 {
+    position: absolute;
+    top: 245px;
+    left: 32px;
+    font-size: 13.5px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+#learn-more button {
+    position: absolute;
+    bottom: 30px;
+    left: 32px;
+    background-color: white;
+    padding: 9px 66px 9px 66px;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* section footer--------------------------- */
+
+#footer {
+    height: 620px;
+    background: #0e382c;
+    position: relative;
+    top: 40px;
+    padding: 125px 90px 80px 115px;
+}
+
+#footer .sub-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#footer .child-div {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer .logo {
+    width: 29%;
+}
+
+#footer p {
+    color: white;
+    font-size: 17.5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 13.5px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 29px;
+}
+
+#footer a:hover{
+    color: lightgray;
+}
+
+#footer .icon {
+    color: white;
+    font-size: 35px;
+    margin-top: 18px;
+    margin-right: 12px;
+}
+
+#footer .app {
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+#footer .last-div {
+    border-color: lightgray;
+    border-width: 1px 0px 0px 0px;
+    border-style: solid;
+    position: relative;
+    top: 75px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    width: 98%;
+}
+
+#footer .last-div a {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#footer .last-div a:hover{
+    color: lightgray;
+}
+
+#footer .last-div .a {
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 0px 1px 0px 0px;
+    margin-right: 15px;
+    padding-right: 15px;
+
+}
+
+#footer .last-div .copyright {
+    font-size: 10px;
+    position: relative;
+    top: -3px;
+
+}
